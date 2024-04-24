@@ -1,8 +1,9 @@
 spring:
   data:
     mongodb:
-#      uri: mongodb://tcAdmin:123456@localhost:27017/techCompare
-      uri: mongodb://eric:szy11408@localhost:27017/admin
+      uri: mongodb://techcompare-server:do3dKRXG3mGkLHR5RBMfSPL9JidXsykAhS5CMu1Q0351Q6SEFQTy9nWAFvpzTRnoYr2wfGzv7x45ACDbjYKY1g==@techcompare-server.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@techcompare-server@
+      #uri: mongodb://tcAdmin:123456@localhost:27017/techCompare
+#      uri: mongodb://eric:szy11408@localhost:27017/admin
 #       uri: mongodb+srv://techCompare:TFkMwBs3wRhWPU1a@cluster0.oooglym.mongodb.net/techCompare
 
 jwt:
