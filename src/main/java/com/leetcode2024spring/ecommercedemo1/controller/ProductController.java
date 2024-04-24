@@ -188,5 +188,15 @@ public class ProductController {
         System.out.println("addpricehist");
         System.out.println(ret);
     }
+
+    ///just for testing
+    @GetMapping("/test")
+    public List<Product> getProductsByAll2(@RequestParam(required = false) String category,
+                                           @RequestParam(required = false) String brand,
+                                           @RequestParam(required = false) Double minPrice,
+                                           @RequestParam(required = false) Double maxPrice) {
+        return productService.findProductsByCriteria(category, brand, minPrice, maxPrice,brand);
+    }
+   //////////
 }
 
