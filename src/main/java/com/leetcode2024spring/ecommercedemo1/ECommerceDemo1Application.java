@@ -13,6 +13,7 @@ import java.util.*;
 import java.sql.Timestamp;
 
 @SpringBootApplication
+//@SpringBootApplication(exclude = {MongoAutoConfiguration.class})
 public class ECommerceDemo1Application {
 
     public static void main(String[] args) {
