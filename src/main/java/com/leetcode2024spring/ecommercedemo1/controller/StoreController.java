@@ -16,7 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://blue-hill-0255a820f.5.azurestaticapps.net/")
 @RequestMapping("/store")
 public class StoreController {
     @Autowired

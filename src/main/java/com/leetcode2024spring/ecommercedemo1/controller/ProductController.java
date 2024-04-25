@@ -19,7 +19,8 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://blue-hill-0255a820f.5.azurestaticapps.net/")
 @RequestMapping("/products")
 @AllArgsConstructor
 public class ProductController {
